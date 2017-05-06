@@ -1,0 +1,15 @@
+{
+  "name": "node-create-schedule-task",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "mysql": "^2.13.0",
+    "node-schedule": "^1.2.1",
+    "node-xlsx": "^0.7.4",
+    "nodemailer": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node  ./src/auto_task.js"
+  }
+}
